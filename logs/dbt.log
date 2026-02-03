@@ -1,0 +1,31 @@
+[0m01:59:25.639733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107db0750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b707bd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b6f6150>]}
+
+
+============================== 01:59:25.647297 | 3602c08b-bedd-4a94-ae35-262e95366039 ==============================
+[0m01:59:25.647297 [info ] [MainThread]: Running with dbt=1.11.2
+[0m01:59:25.647802 [debug] [MainThread]: running dbt with arguments {'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'indirect_selection': 'eager', 'introspect': 'True', 'cache_selected_only': 'False', 'debug': 'False', 'version_check': 'True', 'profiles_dir': '/Users/pakorn/.dbt', 'log_cache_events': 'False', 'fail_fast': 'False', 'printer_width': '80', 'log_path': 'logs', 'use_experimental_parser': 'False', 'warn_error': 'None', 'log_format': 'default', 'use_colors': 'True', 'static_parser': 'True', 'quiet': 'False', 'invocation_command': 'dbt init', 'write_json': 'True', 'target_path': 'None', 'no_print': 'None', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m01:59:25.660420 [info ] [MainThread]: Creating dbt configuration folder at /Users/pakorn/.dbt
+[0m01:59:35.277069 [debug] [MainThread]: Starter project path: /Users/pakorn/Documents/Data Engineer/data-engineering-db/ELT/.venv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m01:59:35.285904 [info ] [MainThread]: 
+Your new dbt project "custom_postgres" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:59:35.286679 [info ] [MainThread]: Setting up your profile.
+[0m02:02:43.145459 [info ] [MainThread]: Profile custom_postgres written to /Users/pakorn/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m02:02:43.665798 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 198.08376, "process_in_blocks": "0", "process_kernel_time": 0.179954, "process_mem_max_rss": "116834304", "process_out_blocks": "0", "process_user_time": 0.997632}
+[0m02:02:43.666803 [debug] [MainThread]: Command `dbt init` succeeded at 02:02:43.666672 after 198.09 seconds
+[0m02:02:43.667302 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b72b410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b76ad10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1026c6850>]}
+[0m02:02:43.667789 [debug] [MainThread]: Flushing usage events
+[0m02:02:44.805694 [debug] [MainThread]: An error was encountered while trying to flush usage events
